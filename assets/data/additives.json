@@ -1,0 +1,146 @@
+{
+  "harmful": [
+    {
+      "code": "E211",
+      "name": "Sodium Benzoate",
+      "type": "Preservative",
+      "description": "Used in soft drinks and juices. Can react with Vitamin C to form benzene (carcinogen).",
+      "risk": "high"
+    },
+    {
+      "code": "E250",
+      "name": "Sodium Nitrite",
+      "type": "Preservative",
+      "description": "Used in processed meats like sausages and ham. Linked to colorectal cancer risk.",
+      "risk": "high"
+    },
+    {
+      "code": "E102",
+      "name": "Tartrazine",
+      "type": "Artificial Color",
+      "description": "Synthetic yellow dye used in candies and drinks. Linked to hyperactivity in children.",
+      "risk": "high"
+    },
+    {
+      "code": "E110",
+      "name": "Sunset Yellow FCF",
+      "type": "Artificial Color",
+      "description": "Orange-yellow dye. Linked to allergic reactions and hyperactivity.",
+      "risk": "high"
+    },
+    {
+      "code": "E129",
+      "name": "Allura Red AC",
+      "type": "Artificial Color",
+      "description": "Red dye used in snacks and drinks. Linked to hyperactivity in children.",
+      "risk": "high"
+    },
+    {
+      "code": "E171",
+      "name": "Titanium Dioxide",
+      "type": "Color (Whitener)",
+      "description": "Used to whiten foods. May cause DNA damage; banned in the European Union.",
+      "risk": "high"
+    },
+    {
+      "code": "E621",
+      "name": "Monosodium Glutamate (MSG)",
+      "type": "Flavor Enhancer",
+      "description": "Common flavor enhancer. May cause headaches, sweating and sensitivity in some people.",
+      "risk": "high"
+    },
+    {
+      "code": "E951",
+      "name": "Aspartame",
+      "type": "Artificial Sweetener",
+      "description": "Artificial sweetener in diet foods. Controversial; classified as possibly carcinogenic by WHO (2023).",
+      "risk": "high"
+    },
+    {
+      "code": "E320",
+      "name": "BHA (Butylated Hydroxyanisole)",
+      "type": "Antioxidant / Preservative",
+      "description": "Prevents rancidity in fats. Listed as a possible carcinogen.",
+      "risk": "high"
+    },
+    {
+      "code": "E321",
+      "name": "BHT (Butylated Hydroxytoluene)",
+      "type": "Antioxidant / Preservative",
+      "description": "Used in cereals and fats. May disrupt hormonal function.",
+      "risk": "high"
+    }
+  ],
+  "moderate": [
+    {
+      "code": "E300",
+      "name": "Ascorbic Acid (Vitamin C)",
+      "type": "Antioxidant",
+      "description": "Natural vitamin C. Generally safe; used to preserve color and freshness.",
+      "risk": "moderate"
+    },
+    {
+      "code": "E330",
+      "name": "Citric Acid",
+      "type": "Acidity Regulator",
+      "description": "Naturally found in citrus fruits. Generally safe in normal food quantities.",
+      "risk": "moderate"
+    },
+    {
+      "code": "E322",
+      "name": "Lecithin",
+      "type": "Emulsifier",
+      "description": "Usually derived from soy or sunflower. Generally safe but may cause soy allergy reactions.",
+      "risk": "moderate"
+    },
+    {
+      "code": "E471",
+      "name": "Mono and Diglycerides of Fatty Acids",
+      "type": "Emulsifier",
+      "description": "Used in baked goods and margarine. May contain hidden trans fats.",
+      "risk": "moderate"
+    },
+    {
+      "code": "E412",
+      "name": "Guar Gum",
+      "type": "Thickener",
+      "description": "Derived from guar beans. May cause bloating and digestive discomfort.",
+      "risk": "moderate"
+    },
+    {
+      "code": "E415",
+      "name": "Xanthan Gum",
+      "type": "Thickener / Stabilizer",
+      "description": "Produced by bacterial fermentation. Generally safe; may affect digestion in large amounts.",
+      "risk": "moderate"
+    },
+    {
+      "code": "E440",
+      "name": "Pectin",
+      "type": "Thickener / Gelling Agent",
+      "description": "Natural plant fiber from fruit peels. Generally safe and beneficial for digestion.",
+      "risk": "moderate"
+    },
+    {
+      "code": "E452",
+      "name": "Polyphosphates",
+      "type": "Sequestrant / Preservative",
+      "description": "Used in processed meats and seafood. High intake may affect kidney function.",
+      "risk": "moderate"
+    },
+    {
+      "code": "E955",
+      "name": "Sucralose",
+      "type": "Artificial Sweetener",
+      "description": "600x sweeter than sugar. May negatively affect gut microbiome with regular use.",
+      "risk": "moderate"
+    },
+    {
+      "code": "E150",
+      "name": "Caramel Color",
+      "type": "Color",
+      "description": "Some forms (Class III, IV) may contain 4-MEI, a possible carcinogen. Check the subtype.",
+      "risk": "moderate"
+    }
+  ]
+}

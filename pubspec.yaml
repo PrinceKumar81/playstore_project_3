@@ -1,0 +1,63 @@
+name: calorie
+description: "Smart Calorie & Health Checker - Track nutrition, scan barcodes, and analyze food health."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── UI & Icons ─────────────────────────────────────────────────
+  cupertino_icons: ^1.0.8
+
+  # ── State Management ───────────────────────────────────────────
+  provider: ^6.1.2
+
+  # ── Local Storage ──────────────────────────────────────────────
+  shared_preferences: ^2.3.3
+
+  # ── Networking ─────────────────────────────────────────────────
+  http: ^1.2.2
+
+  # ── Barcode Scanner ────────────────────────────────────────────
+  mobile_scanner: ^6.0.2
+
+  # ── Text to Speech ─────────────────────────────────────────────
+  flutter_tts: ^4.2.0
+
+  # ── Charts ─────────────────────────────────────────────────────
+  fl_chart: ^0.70.2
+
+  # ── Utilities ──────────────────────────────────────────────────
+  uuid: ^4.5.1
+  intl: ^0.20.2
+  hive: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ── Assets ─────────────────────────────────────────────────────
+  assets:
+    - assets/data/indian_foods.json
+    - assets/data/additives.json
+
+  # ── Fonts ──────────────────────────────────────────────────────
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
